@@ -275,7 +275,8 @@ def create_app():
             choice = request.form.get('status')
 
             if 'applied' in choice.lower() or 'interview' in choice.lower(
-            ) or 'rejected' in choice.lower() or 'offer' in choice.lower():
+            ) or 'rejected' in choice.lower() or 'offer' in choice.lower(
+            ) or 'accepted' in choice.lower():
                 applications = db.Apps.find({
                     "user":
                     ObjectId(session.get("user_id")),
