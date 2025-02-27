@@ -9,10 +9,12 @@
 
     <section class="stats">
         <div class="weekly">
+            <img src="{{ url_for('static', filename='images/Progress.png') }}" alt="Progress Icon" class="progress-img">
             <p>Total Jobs Applied This Week:</p>
             <h2>{{ week }}</h2>
         </div>
         <div class="monthly">
+            <img src="{{ url_for('static', filename='images/Progress.png') }}" alt="Progress Icon" class="progress-img">
             <p>Total Jobs Applied This Month:</p>
             <h2>{{ month }}</h2>
         </div>
