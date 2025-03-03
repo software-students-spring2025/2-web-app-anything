@@ -43,14 +43,17 @@ Ensure you have the following downloaded:
    pip install -r requirements.txt
    ```
 
-4. Run the web app:
+4. Create a .env file in the job-tracker folder and load the environment variables, which can be found in the team's discord server.
+
+
+5. Run the web app:
    ```sh
    python app.py # try 'python3' instead of 'python' if your system requires it
    ```
 
-5. Create a .env file in the job-tracker folder and load the environment variables, which can be found in the team's discord server.
+6. Open the web app in the browser using the link http://127.0.0.1:5000/
 
-6. Open the web app in the browser using the link http://localhost:3000/
+7. Use developer tools to browse on a mobile view (preferably iPhone 14 Pro Max)
 
 ## Task boards
 
