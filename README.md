@@ -8,7 +8,7 @@ Our platform empowers job seekers to organize, track, and manage all their job a
 
 ## User stories
 
-User stories can be found as issues in our team's [here](./user-stories.md). 
+User stories can be found as issues in our team's [Issues page](https://github.com/software-students-spring2025/2-web-app-anything/issues?q=is%3Aissue%20) or in [this file](./user-stories.md). 
 
 ## Steps necessary to run the software
 
